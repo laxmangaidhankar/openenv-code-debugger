@@ -1,0 +1,10 @@
+name: code-debugging-environment
+description: >
+  An OpenEnv-compatible evaluation environment that presents an AI agent with
+  buggy Python code snippets and scores its ability to fix them using
+  deterministic grading (syntax validation + functional test cases).
+version: "1.0.0"
+tasks:
+  - easy_syntax
+  - medium_logic
+  - hard_edge
